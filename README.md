@@ -16,9 +16,9 @@ Aplicação da rede VAE + PCA para geração de faces de gatos
     https://github.com/keras-team/keras-io/blob/master/examples/generative/vae.py
 
 
- - Arquivos do repositório:
+ - Arquivos:
     
-    cats_rgb.npy: Arquivo numpy de transformação das imagens carregadas em arrays. Mais rápido e fácil para carregar.
+    cats_rgb.npy: Arquivo numpy de transformação das imagens carregadas em arrays. Mais rápido e fácil para carregar. Pesado para fazer upload aqui.
     
     decoder_model.h5: Rede decoder treinada salva. Modelo construido no tensorflow-keras.
     
