@@ -1,6 +1,9 @@
 # Variational-AutoEncoder-PCA
 Aplicação da rede VAE + PCA para geração de faces de gatos
 
+As VAE's são uma variação das autoencoders para geração de conteúdos. Sua diferença é que as VAE's codificam as entradas como distribuições de probabilidade sobre o espaço latente, além de incluir um termo de regularização (KL divergence) que ajuda a evitar o overfitting, criando uma espécie de sobreposição das distribuições no espaço latente, o que permite a geração interpretável da decodificação.
+
+
  - Dados: 15.7k imagens de faces de gatos de dimensões 64x64
 
 
@@ -28,3 +31,7 @@ Aplicação da rede VAE + PCA para geração de faces de gatos
     
     testing.py: Construção da GUI para exibição dos efeitos das 10 primeiras componentes principais na formação das faces.
     
+    
+ - Visualização:
+    
+![VAE - Cats 2021-11-15 14-00-57](https://user-images.githubusercontent.com/88464241/141986091-3f0c55aa-0708-4d44-a8c9-960021d424ce.gif)
