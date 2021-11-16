@@ -32,6 +32,6 @@ As VAE's são uma variação das autoencoders para geração de conteúdos. Sua 
     testing.py: Construção da GUI para exibição dos efeitos das 10 primeiras componentes principais na formação das faces.
     
     
- - Visualização:
+ - Visualização [GIF]:
     
 ![VAE - Cats 2021-11-15 14-00-57](https://user-images.githubusercontent.com/88464241/141986091-3f0c55aa-0708-4d44-a8c9-960021d424ce.gif)
